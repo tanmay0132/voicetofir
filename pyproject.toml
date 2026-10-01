@@ -1,0 +1,16 @@
+[project]
+name = "newproject"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "audio-recorder-streamlit>=0.0.8",
+    "google-genai>=0.1.1",
+    "groq>=0.9.0",
+    "gtts>=2.5.1",
+    "pydantic>=2.7.0",
+    "reportlab>=4.2.0",
+    "streamlit>=1.35.0",
+    "streamlit-drawable-canvas>=0.9.3",
+]
